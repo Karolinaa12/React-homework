@@ -10,6 +10,7 @@ root.render(
     <div className="App">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <h1>Weather app</h1>
           <SearchEngine />
         </div>
       </div>

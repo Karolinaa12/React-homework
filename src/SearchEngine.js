@@ -9,7 +9,7 @@ export default function SearchEngine() {
   function showWeather(response) {
     setWeather(
       <div className="Weather">
-        <h1>{city}</h1>
+        <h2>{city}</h2>
         <ul>
           <li>Temperature: {Math.round(response.data.main.temp)}°C</li>
           <li>Description: {response.data.weather[0].description}</li>
